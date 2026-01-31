@@ -3,12 +3,15 @@
 @theme inline {
   --color-roxo: #8c2985;
   --color-roxo-escuro: #4e164a;
-  --color-laranja-claro: #ff8e17;
+  --color-laranja: #ff8e17;
   --color-laranja-escuro: #e8731d;
   --color-ciano: #379ab4;
+  --color-ciano-escuro: #2d8ca8;
   --color-azul-escuro: #145262;
+  --color-azul-claro: #64c3d2;
   --color-preto1: #292929;
   --color-white1: #f7f7f7;
+  --color-cinza: #EBEBEB;
 
   --breakpoint-lg: 1300px;
 }

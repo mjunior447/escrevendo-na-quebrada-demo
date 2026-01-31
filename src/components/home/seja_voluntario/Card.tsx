@@ -22,10 +22,10 @@ const Card = ({ className }: CardProps) => {
         </p>
       </div>
       <Link
-      target="_blank"
+        target="_blank"
         className="w-full"
         href={
-          "https://docs.google.com/forms/d/e/1FAIpQLSeFsrdiXeEmsaoGH-IbydmVDJY_tFn7FHkggwR1RP7KDkbebA/viewform"
+          "https://forms.gle/mT66dE8CsiH14zh26"
         }
       >
         <Button className="mt-3 py-2 text-sm">Faça parte do EQ</Button>

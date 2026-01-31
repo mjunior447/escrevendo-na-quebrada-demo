@@ -41,9 +41,8 @@ const Sobre = () => {
           </Link>
           <Link className="md:max-lg:self-center lg:w-1/2" href={' https://www.paraquemdoar.com.br/escrevendo-na-quebrada '}>
             <Button
+              colorVariant="ciano"
               className="w-full md:max-lg:w-lg lg:w-full text-sm mt-3 py-2 lg:py-1"
-              bg="bg-[#10a2c7]"
-              hover="hover:bg-ciano"
             >
               faça uma doação
             </Button>

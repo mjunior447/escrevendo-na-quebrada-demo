@@ -45,7 +45,7 @@ const CardNumber = () => {
       </div>
       <div className="absolute -bottom-10 sm:-bottom-6 left-1/2 -translate-x-1/2 w-[15rem] sm:w-[17rem] md:w-[30rem] lg:w-[36.875rem]">
         <Link href={'#faq'}>
-          <Button className="py-3 text-sm md:text-base" bg="bg-[#10a2c7]" hover="hover:bg-ciano">
+          <Button className="py-3 text-sm md:text-base" colorVariant="ciano">
             VEJA MAIS SOBRE NOSSAS CONQUISTAS
           </Button>
         </Link>

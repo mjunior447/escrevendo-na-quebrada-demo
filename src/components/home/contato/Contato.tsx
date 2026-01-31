@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Contato = () => {
   return (
-    <section className="flex justify-center items-center min-w-screen bg-[#EBEBEB]">
+    <section className="flex justify-center items-center min-w-screen bg-cinza">
       <div className="flex flex-col gap-12 lg:gap-40 justify-center items-center max-w-[1440px] py-30 md:py-50 px-6">
         <div className="flex flex-col items-center lg:flex-row-reverse gap-12 lg:gap-20">
           <div className="flex flex-col gap-4 text-preto1 w-full max-w-lg">

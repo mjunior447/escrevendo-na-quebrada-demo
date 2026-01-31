@@ -6,7 +6,6 @@ export interface CarouselSlideProps {
   jobLocation: string;
   jobDescription: string;
   jobActivities: string;
-  //   buttonCallback: () => void;
 }
 
 const CarouselSlide = ({
@@ -15,8 +14,8 @@ const CarouselSlide = ({
   jobLocation,
   jobDescription,
   jobActivities,
-}: //   buttonCallback,
-CarouselSlideProps) => {
+}:
+  CarouselSlideProps) => {
   return (
     <div className="embla__slide grow-0 shrink-0 basis-[100%] sm:basis-[55%] pl-1 h-full">
       <div className="embla__slide__content rounded-[1.8rem] flex flex-col justify-between select-none backface-hidden p-12 bg-roxo-escuro/20 h-full">
@@ -36,9 +35,8 @@ CarouselSlideProps) => {
           </p>
         </div>
         <Button
-          className="py-3 text-sm font-semibold bg-transparent border-1 border-roxo shadow-none transition-colors duration-200"
-          textColor="text-roxo-escuro"
-          hover="hover:text-white hover:bg-roxo-escuro"
+          colorVariant="outlinedDeepPurple"
+          className="py-3 text-sm font-semibold shadow-none"
         >
           Candidate-se
         </Button>

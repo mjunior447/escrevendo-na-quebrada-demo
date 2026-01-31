@@ -153,7 +153,7 @@ const Navbar = () => {
               target="_blank"
               href={" https://www.paraquemdoar.com.br/escrevendo-na-quebrada "}
             >
-              <Button className="rounded-md px-8 py-2 " bg="bg-[#10a2c7]">
+              <Button colorVariant="ciano" className="rounded-md px-8 py-2">
                 DOE
               </Button>
             </Link>
@@ -188,8 +188,8 @@ const Navbar = () => {
           href={" https://www.paraquemdoar.com.br/escrevendo-na-quebrada "}
         >
           <Button
-            className="rounded-md px-8 py-2 text-sm"
-            bg="bg-[#10a2c7] hidden lg:inline"
+            colorVariant="ciano"
+            className="rounded-md px-8 py-2 text-sm hidden lg:inline"
           >
             DOE
           </Button>

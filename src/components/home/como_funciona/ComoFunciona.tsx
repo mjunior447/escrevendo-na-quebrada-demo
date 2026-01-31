@@ -5,7 +5,7 @@ import { cardComoFuncionaData } from "@/data/data";
 
 const ComoFunciona = () => {
   return (
-    <section className="flex flex-col items-center w-screen min-h-screen bg-[#EBEBEB]">
+    <section className="flex flex-col items-center w-screen min-h-screen bg-cinza">
       <div className="flex flex-col gap-16 items-center w-full py-16 px-6 max-w-[1440px] text-center">
         <div className="text-center">
           <h2 className="text-lg md:text-lg font-bold mb-5 md:mb-0">
