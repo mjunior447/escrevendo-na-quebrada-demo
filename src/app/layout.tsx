@@ -1,8 +1,8 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/header/Header";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.className} antialiased bg-white1`}>
       <body>
-        <Navbar />
+        <Header />
         {children}
         <Footer />
       </body>

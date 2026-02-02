@@ -24,7 +24,7 @@ const Hero = () => {
               Vem ampliar seu repertório, desenvolver sua escrita e fortalecer sua habilidade de leitura e reflexão.
             </p>
           </div>
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <Link href='#editaiseinscricoes' className="w-full">
               <Button colorVariant="ciano" className="py-2 max-w-sm uppercase text-sm md:text-base">
                 Inscreva-se
