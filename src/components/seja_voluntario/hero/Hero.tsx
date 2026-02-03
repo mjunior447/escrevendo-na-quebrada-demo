@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import CardHero from "@/components/seja_voluntario/hero/CardHero";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -21,9 +22,11 @@ const Hero = () => {
             </p>
           </div>
           <div>
-            <Button className="bg-roxo-escuro/60 py-4 max-w-sm">
-              FAÇA SUA INSCRIÇÃO AGORA!
-            </Button>
+            <Link href="https://forms.gle/mT66dE8CsiH14zh26" target="_blank">
+              <Button className="bg-roxo-escuro/60 py-4 max-w-sm uppercase">
+                Faça sua inscrição agora!
+              </Button>
+            </Link>
           </div>
         </div>
 

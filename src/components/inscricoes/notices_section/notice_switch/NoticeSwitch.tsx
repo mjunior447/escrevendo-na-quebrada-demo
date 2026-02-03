@@ -16,7 +16,7 @@ const NOTICES = [
     description: 'O curso de redação do EQ tem como objetivo desenvolver, de forma progressiva e aprofundada, as competências exigidas na redação do ENEM, compreendendo a escrita como prática discursiva, argumentativa e socialmente situada.',
     deadline: '02 Fev 2026 - 15 Mar 2026',
     vacancies: 'vagas limitadas',
-    link: 'https://forms.gle/mT66dE8CsiH14zh26',
+    link: 'https://forms.gle/rJsopXFTmf1oUBsa7',
   },
   {
     state: 'closed',

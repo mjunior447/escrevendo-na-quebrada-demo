@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="min-h-[calc(100vh-97px)] w-screen flex items-center justify-center px-6 md:px-12 py-16 text-white">
+    <section className="w-screen flex items-center justify-center px-6 md:px-12 py-16 text-white">
       <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 py-6 justify-center gap-20">
         <div className="flex-1">
           <div className="mb-6">
